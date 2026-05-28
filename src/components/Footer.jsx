@@ -19,30 +19,32 @@ const Footer = () => {
           <div className="flex flex-col gap-2">
             <span className="text-secondary text-[10px] tracking-widest mb-2">CONTACT</span>
             <a
-              href="mailto:lozicrizvic@gmail.com"
+              href="mailto:almirlozic5@gmail.com"
               className="text-primary hover:text-secondary transition-colors underline underline-offset-4 decoration-1 normal-case"
             >
-              lozicrizvic@gmail.com
+              almirlozic5@gmail.com
             </a>
           </div>
 
           <div className="flex flex-col gap-2">
             <span className="text-secondary text-[10px] tracking-widest mb-2">SOCIALS</span>
-            {[
-              { label: "INSTAGRAM", href: "https://www.instagram.com/almirlozic/" },
-              { label: "LINKEDIN", href: "https://www.linkedin.com/in/almir-lozic-6ab989321/" },
-              { label: "GITHUB", href: "https://github.com/Almirlozic" },
-            ].map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-secondary hover:text-primary transition-colors underline underline-offset-4 decoration-1"
-              >
-                {link.label}
-              </a>
-            ))}
+            <div className="flex flex-row gap-6">
+              {[
+                { label: "INSTAGRAM", href: "https://www.instagram.com/almirlozic/" },
+                { label: "LINKEDIN", href: "https://www.linkedin.com/in/almir-lozic-6ab989321/" },
+                { label: "GITHUB", href: "https://github.com/Almirlozic" },
+              ].map((link) => (
+                <a
+                  key={link.label}
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-secondary hover:text-primary transition-colors underline underline-offset-4 decoration-1"
+                >
+                  {link.label}
+                </a>
+              ))}
+            </div>
           </div>
 
           <div className="flex flex-col gap-8">
