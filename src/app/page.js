@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Work from "@/components/Work";
+import GallerySection from "@/components/GallerySection";
 
 export default function Portfolio() {
   useEffect(() => {
@@ -26,6 +27,7 @@ export default function Portfolio() {
         <Hero />
         <About />
         <Work />
+        {/*   <GallerySection /> */}
       </main>
     </>
   );

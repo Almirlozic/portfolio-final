@@ -82,7 +82,7 @@ const Work = () => {
         </div>
       </section>
 
-      <section
+      {/*       <section
         id="contact"
         className="px-margin-mobile md:px-margin-page py-stack-xl bg-primary text-on-primary overflow-hidden"
       >
@@ -109,7 +109,7 @@ const Work = () => {
             </button>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
