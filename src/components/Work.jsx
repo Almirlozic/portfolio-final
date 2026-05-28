@@ -81,35 +81,6 @@ const Work = () => {
           ))}
         </div>
       </section>
-
-      {/*       <section
-        id="contact"
-        className="px-margin-mobile md:px-margin-page py-stack-xl bg-primary text-on-primary overflow-hidden"
-      >
-        <div className="max-w-4xl reveal-on-scroll">
-          <h2 className="font-headline-lg text-headline-lg-mobile md:text-headline-lg uppercase mb-8 leading-tight">
-            LET&apos;S
-            <br />
-            BUILD.
-          </h2>
-          <div className="flex flex-col md:flex-row gap-8 items-end">
-            <div className="grow w-full group">
-              <label className="font-label-mono text-label-mono uppercase mb-2 block transition-transform group-focus-within:-translate-y-1">
-                Your Email
-              </label>
-              <input
-                type="email"
-                placeholder="HELLO@YOURDOMAIN.COM"
-                className="w-full bg-transparent border-b border-on-primary py-4 font-label-mono uppercase placeholder:text-secondary-fixed-dim focus:outline-none transition-all rounded-none px-0"
-              />
-            </div>
-            <button className="w-full md:w-auto border border-on-primary px-12 py-4 font-label-mono uppercase hover:bg-on-primary hover:text-primary transition-all duration-300 relative overflow-hidden group">
-              <span className="relative z-10">SEND</span>
-              <div className="absolute inset-0 bg-on-primary translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
-            </button>
-          </div>
-        </div>
-      </section> */}
     </>
   );
 };
